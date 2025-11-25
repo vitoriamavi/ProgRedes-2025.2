@@ -34,4 +34,7 @@ while True:
                 server.sendto(dados, endereco)
 
         print(f"Arquivo {nome_arquivo} enviado para o endereço {endereco}.")
-        
+
+
+if __name__ == "__main__":
+    main()
