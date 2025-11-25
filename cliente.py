@@ -1,6 +1,5 @@
 import socket
 import os
-from xmlrpc import client
 
 HOST = '127.0.0.1'
 PORT = 5000
