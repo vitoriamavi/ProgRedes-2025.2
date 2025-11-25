@@ -23,7 +23,7 @@ def main():
 
     with open(saida, 'wb') as f:
         while bytes_recebidos < tamanho_arquivo:
-            dados, _ = client.recvfrom(4096)
+            dados, endereco = client.recvfrom(4096)
             f.write(dados)
             bytes_recebidos += len(dados)
 
