@@ -1,7 +1,7 @@
 import socket
 import os
 
-HOST = '0.0.0.0'
+HOST = '127.0.0.1'
 PORT = 5000
 def main():
     server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -32,7 +32,7 @@ def main():
                         break
                     server.sendto(dados, endereco)
 
-            print(f"Arquivo {nome_arquivo} enviado para o endereço {endereco}.")
+            print(f"Arquivo {nome_arquivo} enviado.")
 
 
 if __name__ == "__main__":
