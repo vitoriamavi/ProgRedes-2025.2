@@ -19,7 +19,7 @@ def main():
     print(f"Tamanho do arquivo: {tamanho_arquivo} bytes.")
 
     bytes_recebidos = 0
-    saida = "recebido_" + nome_arquivo
+    saida = nome_arquivo
 
     with open(saida, 'wb') as f:
         while bytes_recebidos < tamanho_arquivo:
