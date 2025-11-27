@@ -27,7 +27,7 @@ def main():
             f.write(dados)
             bytes_recebidos += len(dados)
 
-    print(f"Arquivo {saida} recebido.")
+    print(f"Arquivo {nome_arquivo} recebido.")
 
 if __name__ == "__main__":
     main()
