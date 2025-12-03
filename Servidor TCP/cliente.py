@@ -1,7 +1,7 @@
 import socket
 import struct
 
-HOST =''
+HOST ='192.168.100.93'
 PORT = 20000
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

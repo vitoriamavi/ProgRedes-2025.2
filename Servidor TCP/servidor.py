@@ -44,3 +44,4 @@ while True:
     print(f"Arquivo enviado com sucesso.")
     client.close()
     
+    print(f"Tamanho do arquivo: {filesize} bytes")
